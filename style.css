@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #161616;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 32px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 260px;
+}
+
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 12px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #158030;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.aprovado {
+  color: #158030; /* verde */
+}
+
+.recuperacao {
+  color: #b8860b; /* amarelo/laranja */
+}
+
+.reprovado {
+  color: #c0392b; /* vermelho */
+}
